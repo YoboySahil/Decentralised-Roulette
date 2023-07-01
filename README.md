@@ -48,9 +48,6 @@ If you are interested in contributing to Decentralised Roulette or exploring the
 6. Start the development server: `npm start`
 7. Open your web browser and navigate to `http://localhost:3000` to access the game locally.
 
-## License
-
-Decentralised Roulette is released under the [MIT License](./LICENSE).
 
 ## Disclaimer
 
