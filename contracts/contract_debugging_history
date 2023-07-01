@@ -1,0 +1,51 @@
+//   constructor() public payable {
+//     creator = msg.sender;
+//     necessaryBalance = 0;
+//     nextRoundTimestamp = block.timestamp;
+//     payouts = [2,3,3,2,2,36];
+//     numberRange = [1,2,2,1,1,36];
+//     betAmount = 10000000000000000; /* 0.01 ether */
+//     maxAmountAllowedInTheBank = 2000000000000000000; /* 2 ether */
+//   }
+
+ /* are we allowed to spin the wheel? */
+    // require(block.timestamp > nextRoundTimestamp);
+    /* next time we are allowed to spin the wheel again */
+    // nextRoundTimestamp = block.timestamp;
+    /* calculate 'random' number */
+      /* are there any bets? */
+
+
+          /* check if to much money in the bank */
+    // if (address(this).balance > maxAmountAllowedInTheBank) takeProfits();
+    /* returns 'random' number to UI */
+    // emit RandomNumber(number);
+
+//       function getStatus2() public returns(uint) {
+//     uint a=5;
+//     emit RandomNumber1(a);
+//     return (1); 
+//   }
+
+//     function getbet() public {
+//     bets.push(Bet({
+//       betType: 0,
+//       player: msg.sender,
+//       number: 0
+//     }));
+//     bets.push(Bet({
+//       betType: 0,
+//       player: msg.sender,
+//       number: 1
+//     }));
+//   }
+
+ // require(msg.value > 0, "No Ether sent with the transaction."); // Ensure some Ether is sent
+
+
+//  function transferEther() external payable {
+//     address payable recipient = payable(0x613161d2Eb018791B66Ef4917ea1cFF593ca435a);
+//         uint amount = 100000000000000;
+//         contractBalance-=amount;
+//         recipient.transfer(amount); // Transfer the Ether to the recipient address
+//     }
