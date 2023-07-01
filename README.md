@@ -40,7 +40,7 @@ To get started with Decentralised Roulette, follow these steps:
 
 If you are interested in contributing to Decentralised Roulette or exploring the underlying code, follow these steps to set up the development environment:
 
-1. Clone the repository: `git clone https://github.com/your-username/decentralised-roulette.git`
+1. Clone the repository: `git clone https://github.com/Tanmayyy-11/Decentralised-Roulette.git`
 2. Install the required dependencies: `npm install`
 3. Set up the Remix IDE, a web-based development environment for Ethereum smart contracts.
 4. Open the Remix IDE and import the smart contract file from the repository.
